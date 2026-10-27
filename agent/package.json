@@ -1,0 +1,9 @@
+{
+  "name": "osguard-local-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local OSGuard agent for collecting this computer's resource metrics",
+  "scripts": { "start": "node src/agent.js", "dev": "node --watch src/agent.js" },
+  "dependencies": { "cors": "^2.8.5", "dotenv": "^16.4.7", "express": "^4.21.2", "systeminformation": "^5.27.7" }
+}
