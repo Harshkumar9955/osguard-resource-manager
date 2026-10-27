@@ -4,7 +4,7 @@ import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YA
 import { notifyAboutNewAlerts } from './alertNotifications';
 import { mergeSettingsState } from './settingsState';
 
-const API = 'http://localhost:4000/api';
+const API = 'https://osguard-resource-manager.onrender.com/api';
 const NAV = [
   ['Overview', LayoutDashboard], ['Live Monitoring', Activity], ['Processes', Cpu],
   ['Diagnosis & Alerts', ShieldCheck], ['Storage & Network', HardDrive], ['Reports', BarChart3], ['Settings', Settings]
